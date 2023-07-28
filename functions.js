@@ -1,10 +1,12 @@
 function f(g,h){
-
-    if( 10 > 10){
+    
+    setTimeout(() => {
+        if( 10 > 10){
       g("O nosso P")
     }else{
       h("O vosso Q")
     }
+    }, 4000);
   
   }
   
@@ -23,3 +25,5 @@ function f(g,h){
   }).catch(valor=>{
     console.log("Não resolveu "+valor);
   })
+
+  console.log("Aguardando o valor final");
