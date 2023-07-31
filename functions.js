@@ -1,13 +1,11 @@
-function f(g,h){
-    
+function f(g,h){    
     setTimeout(() => {
         if( 10 > 10){
       g("O nosso P")
     }else{
       h("O vosso Q")
     }
-    }, 4000);
-  
+    }, 4000);    
   }
   
   function executarSeRejeitado(valor){
